@@ -1,26 +1,26 @@
 # Site settings
-title: DotBlog
-default_author: Pranav Bhardwaj
-description: "DotBlog of Pranav Bhardwaj"  # used in site head
+title: My Territory
+default_author: Shikher Verma
+description: "Online Territory of Shikher Verma"  # used in site head
 
 # register on google analytics and replace this token
-google_analytics: 
+google_analytics: UA-75681059-1
 # disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
 # Deleting the value would remove it from footer.
-disqus_url: 
-disqus_id: 
+disqus_url: shikherverma.com
+disqus_id: shikherverma
 # register on feedburner and replace this url. Deleting the value will remove it from footer.
-feedburner_url: 
+feedburner_url: https://feedburner.google.com/fb/a/mailverify?uri=programmer-wannabe&amp;loc=en_US
 
 # footer details. Deleting the value would remove it from footer.
-github_username: Pranav1999
+github_username:  shikherverma
 facebook_username:
-email: pranav0281999@gmail.com
+email: root@shikherverma.com
 stackoverflow_username:
-twitter_username : pranav0281999
-linkedin_username : pranav-bhardwaj-0281999
+twitter_username : shikherverma42
+linkedin_username : shikherverma42
 keybase_username :
-copyright_name: Pranav Bhardwaj
+copyright_name: Shikher Verma
 rss : false
 
 # used for portfolio on home page
