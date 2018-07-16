@@ -7,5 +7,5 @@ group :jekyll_plugins do
   gem "rake"
   gem "jekyll-gist"
   gem "github-pages"
-
+  gem 'jekyll-seo-tag'
 end

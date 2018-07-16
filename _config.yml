@@ -2,23 +2,25 @@
 title: DotBlog
 default_author: Pranav Bhardwaj
 description: "Dot Blog of Pranav Bhardwaj"  # used in site head
+url: "https://pranav1999.github.io"
+logo: "favicon.gif"
 
 # register on google analytics and replace this token
-google_analytics: 
+google_analytics:
 # disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
 # Deleting the value would remove it from footer.
-disqus_url: 
-disqus_id: 
+disqus_url:
+disqus_id:
 # register on feedburner and replace this url. Deleting the value will remove it from footer.
-feedburner_url: 
+feedburner_url:
 
 # footer details. Deleting the value would remove it from footer.
 github_username:  Pranav1999
 facebook_username:
-email: 
+email:
 stackoverflow_username:
-twitter_username : 
-linkedin_username : 
+twitter_username :
+linkedin_username :
 keybase_username :
 copyright_name: Pranav Bhardwaj
 rss : false
@@ -43,3 +45,7 @@ paginate_path: blog/page:num
 
 # gem dependencies
 plugins: [jekyll-paginate, jekyll-feed, jekyll-gist]
+
+# seo
+plugins:
+  - jekyll-seo-tag
