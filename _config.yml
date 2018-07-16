@@ -6,10 +6,10 @@ url: "https://pranav1999.github.io"
 logo: "favicon.gif"
 
 # register on google analytics and replace this token
-google_analytics:
+google_analytics: UA-122458720-1
 # disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
 # Deleting the value would remove it from footer.
-disqus_url: pranav1999.github.io
+disqus_url: https://pranav1999.github.io
 disqus_id: pranav0281999
 # register on feedburner and replace this url. Deleting the value will remove it from footer.
 feedburner_url:
