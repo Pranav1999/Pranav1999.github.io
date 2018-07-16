@@ -22,14 +22,14 @@ is so huge, that if I walk up to a total stranger in college campus, 9 out of 10
 the period of two years I have collected notes and compiled them in a list of what I like to call "Labhansh Talk Strategies".
 These are some tricks that you can use now and again to spark up a dying conversation or escape the awkward silence
  when you meet your distant acquaintances. I will share some of his best tricks with you today.
-   
+
 ## The "Meta data"
 What is meta? Every data that you have, has some meta data attached with it. Like any file that you computer has, will
 have a name, a last modified date, size information. That is, data about data. Remember the time when you finished
 discussing something and you had nothing else to talk about ? Well you could have easily extended the conversation
 by talking about META.  
-This is the best strategy anyone can learn to get good at small talk. While having a conversation we actively decide what 
-is relevant to the conversation context and what is not. Most of us think that meta data of what we are talking about is 
+This is the best strategy anyone can learn to get good at small talk. While having a conversation we actively decide what
+is relevant to the conversation context and what is not. Most of us think that meta data of what we are talking about is
 irrelevant to the conversation. This is where we are mistaken. And this is where most of the small talk happens. When ever
 you get in a conversation with someone, think about what you are talking about. Mentally list the things you consider
 are meta i.e. not the data itself but data about data. Like if you are talking about how hard hiking is. Then be sure to talk
@@ -70,7 +70,7 @@ an underlying assumption that they though would be known to you. Doesn't matter 
 
 With these five strategies you will gain the super power to keep the conversation going with or without the other person's will.
 :evil laugh: Most of the people will try to reach a closure before leaving a conversation. However with your awesome talking
-strategies its you who decides when a conversation ends. But remember a great uncle once said, "With great power comes 
-great responsibility." Don't bore someone just because you can. Seriously learn to detect when its too much and stop. 
-Over time I have also discovered how to counter a small talk junkies. Maybe I will write a blog about that in future. Whats 
+strategies its you who decides when a conversation ends. But remember a great uncle once said, "With great power comes
+great responsibility." Don't bore someone just because you can. Seriously learn to detect when its too much and stop.
+Over time I have also discovered how to counter a small talk junkies. Maybe I will write a blog about that in future. Whats
 your strategy for small talk ? Do you have a trick ? Do share it in the comments :)
