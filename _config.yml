@@ -9,7 +9,7 @@ logo: "favicon.gif"
 google_analytics: UA-122458720-1
 # disque comments are broken if you send http:// along with url, this url is same as the one given on disqus
 # Deleting the value would remove it from footer.
-disqus_url: https://pranav1999.github.io
+disqus_url: pranav1999.github.io
 disqus_id: pranav0281999
 # register on feedburner and replace this url. Deleting the value will remove it from footer.
 feedburner_url:
@@ -17,10 +17,10 @@ feedburner_url:
 # footer details. Deleting the value would remove it from footer.
 github_username:  Pranav1999
 facebook_username:
-email:
+email: pranav0281999@gmail.com
 stackoverflow_username:
-twitter_username :
-linkedin_username :
+twitter_username : pranav0281999
+linkedin_username : pranav0281999
 keybase_username :
 copyright_name: Pranav Bhardwaj
 rss : false
