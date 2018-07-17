@@ -45,7 +45,3 @@ paginate_path: blog/page:num
 
 # gem dependencies
 plugins: [jekyll-paginate, jekyll-feed, jekyll-gist, jekyll-seo-tag]
-
-# seo
-#plugins:
-  #- jekyll-seo-tag
