@@ -1,5 +1,5 @@
 ## CleanBlogEnhanced jekyll template
-[![Build Status](https://travis-ci.org/ShikherVerma/Shikherverma.github.io.svg?branch=master)](https://travis-ci.org/ShikherVerma/Shikherverma.github.io)
+[![Build Status](https://travis-ci.org/Pranav1999/pranav1999.github.io.svg?branch=master)](https://travis-ci.org/Pranav1999/pranav1999.github.io)
 
 CleanBlogEnhanced is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.
 
@@ -31,9 +31,9 @@ List of features :
 
 Have a question about this template ?  
 Or want to report a bug or an issue with this template?  
-[Open a new issue](https://github.com/ShikherVerma/shikherverma.github.io/issues) here on GitHub
+[Open a new issue](https://github.com/Pranav1999/pranav1999.github.io/issues) here on GitHub
 
 ## Copyright and License
 
-Copyright ShikherVerma.  
-All rights reserved for the content data under `_posts`, `_portfolio` and `_images`, the rest of the code is released under the [MIT](https://github.com/ShikherVerma/shikherverma.github.io/blob/gh-pages/LICENSE) license.
+Copyright Pranav Bhardwaj.  
+All rights reserved for the content data under `_posts`, `_portfolio` and `_images`, the rest of the code is released under the [MIT](https://github.com/Pranav1999/pranav1999.github.io/blob/master/LICENSE) license.
