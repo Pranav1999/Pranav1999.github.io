@@ -1,27 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.1e1f61b7.chunk.css",
-    "main.js": "/static/js/main.d7214b4e.chunk.js",
-    "main.js.map": "/static/js/main.d7214b4e.chunk.js.map",
+    "main.js": "/static/js/main.6be35ef3.chunk.js",
+    "main.js.map": "/static/js/main.6be35ef3.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.c6286674.chunk.js": "/static/js/2.c6286674.chunk.js",
     "static/js/2.c6286674.chunk.js.map": "/static/js/2.c6286674.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8e4df11152c79f6ea205a5d04fe95846.js": "/precache-manifest.8e4df11152c79f6ea205a5d04fe95846.js",
+    "precache-manifest.0dc425453375c25e0959958a03376ff8.js": "/precache-manifest.0dc425453375c25e0959958a03376ff8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1e1f61b7.chunk.css.map": "/static/css/main.1e1f61b7.chunk.css.map",
     "static/media/Pranav_Bhardwaj_Resume.pdf": "/static/media/Pranav_Bhardwaj_Resume.83b774b2.pdf",
-    "static/media/amazon.png": "/static/media/amazon.8d4aa6f0.png",
-    "static/media/biotrips.png": "/static/media/biotrips.ef2fb3cd.png",
-    "static/media/content_talks.png": "/static/media/content_talks.4c619552.png",
-    "static/media/poshan.jpeg": "/static/media/poshan.20f98b74.jpeg",
+    "static/media/amazon.png": "/static/media/amazon.6257ebd0.png",
+    "static/media/biotrips.png": "/static/media/biotrips.fbb5dfab.png",
+    "static/media/poshan.jpeg": "/static/media/poshan.15aca4fd.jpeg",
     "static/media/pranav.jpg": "/static/media/pranav.a68ddddd.jpg",
-    "static/media/profile-bg.jpg": "/static/media/profile-bg.61dc1827.jpg",
-    "static/media/projects-bg.jpg": "/static/media/projects-bg.6ccedadb.jpg",
-    "static/media/resume-bg.jpg": "/static/media/resume-bg.551853d4.jpg",
-    "static/media/resume-icon-black.png": "/static/media/resume-icon-black.4d3e9c45.png",
-    "static/media/resume.png": "/static/media/resume.247fb804.png",
-    "static/media/simfa.png": "/static/media/simfa.3cb64880.png"
+    "static/media/profile-bg.jpg": "/static/media/profile-bg.732d578a.jpg",
+    "static/media/projects-bg.jpg": "/static/media/projects-bg.71250337.jpg",
+    "static/media/resume-bg.jpg": "/static/media/resume-bg.83a9e339.jpg",
+    "static/media/resume.png": "/static/media/resume.21e993b2.png"
   }
 }
