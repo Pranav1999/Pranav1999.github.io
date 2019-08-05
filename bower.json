@@ -1,0 +1,26 @@
+{
+  "name": "TripleNine",
+  "homepage": "https://pranav0281999.github.io",
+  "authors": [
+    "creative-tim",
+    "pranav-bhardwaj"
+  ],
+  "description": "Portfolio website, hacked by @pranav0281999",
+  "main": "dist/index.js",
+  "keywords": [
+    "material",
+    "design",
+    "material-ui",
+    "google",
+    "twitter"
+  ],
+  "license": "Creative TIM License",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
