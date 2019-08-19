@@ -95,6 +95,16 @@ class ProfilePage extends React.Component {
                         justIcon
                         link
                         className={classes.margin5}
+                        target="_blank"
+                        href="https://www.github.com/pranav0281999"
+                      >
+                        <i className={"fab fa-github"} />
+                      </Button>
+                      <Button
+                        justIcon
+                        link
+                        className={classes.margin5}
+                        target="_blank"
                         href="https://twitter.com/pranav0281999"
                       >
                         <i className={"fab fa-twitter"} />
@@ -103,14 +113,7 @@ class ProfilePage extends React.Component {
                         justIcon
                         link
                         className={classes.margin5}
-                        href="https://www.facebook.com/pranav0281999"
-                      >
-                        <i className={"fab fa-facebook"} />
-                      </Button>
-                      <Button
-                        justIcon
-                        link
-                        className={classes.margin5}
+                        target="_blank"
                         href="https://angel.co/pranav0281999"
                       >
                         <i className={"fab fa-angellist"} />
@@ -119,9 +122,21 @@ class ProfilePage extends React.Component {
                         justIcon
                         link
                         className={classes.margin5}
+                        target="_blank"
                         href="https://www.linkedin.com/in/pranav0281999/"
                       >
                         <i className={"fab fa-linkedin"} />
+                      </Button>
+                      <Button
+                        justIcon
+                        link
+                        className={classes.margin5}
+                        target="_blank"
+                        href="mailto:pranavbhardwaj1999@gmail.com"
+                      >
+                        <i
+                          className={classes.socialIcons + " fas fa-envelope"}
+                        />
                       </Button>
                     </div>
                   </div>

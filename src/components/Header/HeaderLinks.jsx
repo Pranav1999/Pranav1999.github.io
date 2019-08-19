@@ -126,6 +126,23 @@ class HeaderLinks extends React.Component {
         </ListItem>
         <ListItem className={classes.listItem}>
           <Tooltip
+            id="instagram-github"
+            title="Give me a star on Github"
+            placement={window.innerWidth > 959 ? "top" : "left"}
+            classes={{ tooltip: classes.tooltip }}
+          >
+            <Button
+              color="transparent"
+              href="https://www.github.com/pranav0281999"
+              target="_blank"
+              className={classes.navLink}
+            >
+              <i className={classes.socialIcons + " fab fa-github"} />
+            </Button>
+          </Tooltip>
+        </ListItem>
+        <ListItem className={classes.listItem}>
+          <Tooltip
             id="instagram-twitter"
             title="Follow me on Twitter"
             placement={window.innerWidth > 959 ? "top" : "left"}
@@ -172,6 +189,23 @@ class HeaderLinks extends React.Component {
               className={classes.navLink}
             >
               <i className={classes.socialIcons + " fab fa-linkedin"} />
+            </Button>
+          </Tooltip>
+        </ListItem>
+        <ListItem className={classes.listItem}>
+          <Tooltip
+            id="instagram-linkedin"
+            title="Send me an email"
+            placement={window.innerWidth > 959 ? "top" : "left"}
+            classes={{ tooltip: classes.tooltip }}
+          >
+            <Button
+              color="transparent"
+              href="mailto:pranavbhardwaj1999@gmail.com"
+              target="_blank"
+              className={classes.navLink}
+            >
+              <i className={classes.socialIcons + " fas fa-envelope"} />
             </Button>
           </Tooltip>
         </ListItem>

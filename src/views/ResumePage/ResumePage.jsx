@@ -44,7 +44,7 @@ class ProfilePage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 200,
-            color: "white"
+            color: "black"
           }}
           {...rest}
         />
