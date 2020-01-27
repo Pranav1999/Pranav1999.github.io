@@ -46,16 +46,6 @@ import imagesStyles from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 import { cardTitle } from "assets/jss/material-kit-react.jsx";
 
-var projects = [
-  {
-    name: "BioTrips",
-    description:
-      "BioTrips app deals with transportation system provided by vendors to companies and their employees. It works as a travel buddy for all the drivers in the system, who can manage trips allocated to them, as well as allows vendors to observe activities of drivers by providing them data such as trip details, giving them access to live location of driver and location of each activity performed by the drivers.",
-    image: "assets/img/projects/biotrips.png",
-    link: "https://angel.co/projects/1008717-biotrips"
-  }
-];
-
 class ProfilePage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
@@ -90,7 +80,7 @@ class ProfilePage extends React.Component {
                     </div>
                     <div className={classes.name}>
                       <h3 className={classes.title}>Pranav Bhardwaj</h3>
-                      <h6>DEVELOPER</h6>
+                      <h6>SOFTWARE DEVELOPER</h6>
                       <Button
                         justIcon
                         link
@@ -99,15 +89,6 @@ class ProfilePage extends React.Component {
                         href="https://www.github.com/pranav0281999"
                       >
                         <i className={"fab fa-github"} />
-                      </Button>
-                      <Button
-                        justIcon
-                        link
-                        className={classes.margin5}
-                        target="_blank"
-                        href="https://twitter.com/pranav0281999"
-                      >
-                        <i className={"fab fa-twitter"} />
                       </Button>
                       <Button
                         justIcon
@@ -144,9 +125,10 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  A front end developer who mainly works with React Native to
-                  develop hybrid mobile applications and loves to explore the
-                  less-explored corners of world.{" "}
+                  Experienced software developer working mainly on mobile
+                  platforms to built applications using native SDKs and React
+                  Native. Love to learn about and explore different
+                  technologies.
                 </p>
               </div>
               <br />
