@@ -39,7 +39,7 @@ class ProfilePage extends React.Component {
       <div>
         <Header
           color="transparent"
-          brand="TripleNine"
+          brand="Pranav"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -84,7 +84,7 @@ class ProfilePage extends React.Component {
                 </GridItem>
                 <GridItem xs={12} sm={12} md={6}>
                   <img
-                    src={require("assets/img/content/resume.png")}
+                    src={require("assets/img/content/resume.jpg")}
                     className={classes.imgRaised + " " + classes.imgFluid}
                   />
                 </GridItem>
