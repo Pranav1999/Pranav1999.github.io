@@ -31,6 +31,13 @@ import { cardTitle } from "assets/jss/material-kit-react.jsx";
 
 var projects = [
   {
+    name: "UglyChatApp",
+    description:
+      "An attempt to create a messaging application similar to the popular ones using a XMPP server and a NodeJS backend without focusing much on the UI design.",
+    image: require("assets/img/projects/ugly_chat_app.png"),
+    link: "https://github.com/pranav0281999/UglyChatApp"
+  },
+  {
     name: "BioTrips",
     description:
       "Works as a travel buddy for drivers, who can manage trips allocated to them, and allows vendors to make quick decisions with real time info about trips and drivers.",
