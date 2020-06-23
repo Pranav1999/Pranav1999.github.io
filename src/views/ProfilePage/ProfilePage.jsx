@@ -125,9 +125,8 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p>
-                  Experienced software developer working mainly on mobile
-                  platforms to built applications using native SDKs and React
-                  Native. Love to learn about and explore different
+                  Software developer working mainly on mobile platforms, building native apps using 
+                  native languages and hybrid apps using React Native and Flutter. Love to learn about and explore different
                   technologies.
                 </p>
               </div>
