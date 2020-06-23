@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18817fb7866b1c010dd68491c319ac51",
+    "revision": "5029a2c370fe21fae6740cc3b2824159",
     "url": "/index.html"
   },
   {
-    "revision": "b0bbb194d8a88583a455",
-    "url": "/static/css/main.913dac33.chunk.css"
+    "revision": "7e4a73fbd0847d4d7c16",
+    "url": "/static/css/main.c49c6700.chunk.css"
   },
   {
-    "revision": "e30bded1a2545e71f679",
-    "url": "/static/js/2.c6286674.chunk.js"
+    "revision": "1010ede8a4223fe69493",
+    "url": "/static/js/2.18c5c40d.chunk.js"
   },
   {
-    "revision": "b0bbb194d8a88583a455",
-    "url": "/static/js/main.2a780c2b.chunk.js"
+    "revision": "7e4a73fbd0847d4d7c16",
+    "url": "/static/js/main.24c1eee4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "4914e66ba9dec804a88b86d82d32afc8",
-    "url": "/static/media/Pranav_Bhardwaj_Resume.4914e66b.pdf"
+    "revision": "35c3639390ea658e3ddbc2957cc73b03",
+    "url": "/static/media/Pranav_Bhardwaj_Resume.35c36393.pdf"
   },
   {
     "revision": "6257ebd05f73cfcd89b48d23235850eb",
@@ -52,7 +52,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/resume-bg.83a9e339.jpg"
   },
   {
-    "revision": "c1f42634b6971939f1fd8d21e57443b5",
-    "url": "/static/media/resume.c1f42634.jpg"
+    "revision": "f321a4f056f46b302b070e65375a1865",
+    "url": "/static/media/resume.f321a4f0.jpg"
+  },
+  {
+    "revision": "3f4e1f7c242368717c8bb4ca2e758e96",
+    "url": "/static/media/ugly_chat_app.3f4e1f7c.png"
   }
 ]);

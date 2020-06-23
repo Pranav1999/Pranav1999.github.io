@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.913dac33.chunk.css",
-    "main.js": "/static/js/main.2a780c2b.chunk.js",
-    "main.js.map": "/static/js/main.2a780c2b.chunk.js.map",
+    "main.css": "/static/css/main.c49c6700.chunk.css",
+    "main.js": "/static/js/main.24c1eee4.chunk.js",
+    "main.js.map": "/static/js/main.24c1eee4.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.c6286674.chunk.js": "/static/js/2.c6286674.chunk.js",
-    "static/js/2.c6286674.chunk.js.map": "/static/js/2.c6286674.chunk.js.map",
+    "static/js/2.18c5c40d.chunk.js": "/static/js/2.18c5c40d.chunk.js",
+    "static/js/2.18c5c40d.chunk.js.map": "/static/js/2.18c5c40d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0846f0cb66e9f8fd420f3fa980790b9b.js": "/precache-manifest.0846f0cb66e9f8fd420f3fa980790b9b.js",
+    "precache-manifest.a5151ff4ebdaca4a0772b25fa025edd3.js": "/precache-manifest.a5151ff4ebdaca4a0772b25fa025edd3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.913dac33.chunk.css.map": "/static/css/main.913dac33.chunk.css.map",
-    "static/media/Pranav_Bhardwaj_Resume.pdf": "/static/media/Pranav_Bhardwaj_Resume.4914e66b.pdf",
+    "static/css/main.c49c6700.chunk.css.map": "/static/css/main.c49c6700.chunk.css.map",
+    "static/media/Pranav_Bhardwaj_Resume.pdf": "/static/media/Pranav_Bhardwaj_Resume.35c36393.pdf",
     "static/media/amazon.png": "/static/media/amazon.6257ebd0.png",
     "static/media/biotrips.png": "/static/media/biotrips.fbb5dfab.png",
     "static/media/poshan.jpeg": "/static/media/poshan.15aca4fd.jpeg",
@@ -19,6 +19,7 @@
     "static/media/profile-bg.jpg": "/static/media/profile-bg.732d578a.jpg",
     "static/media/projects-bg.jpg": "/static/media/projects-bg.71250337.jpg",
     "static/media/resume-bg.jpg": "/static/media/resume-bg.83a9e339.jpg",
-    "static/media/resume.jpg": "/static/media/resume.c1f42634.jpg"
+    "static/media/resume.jpg": "/static/media/resume.f321a4f0.jpg",
+    "static/media/ugly_chat_app.png": "/static/media/ugly_chat_app.3f4e1f7c.png"
   }
 }
