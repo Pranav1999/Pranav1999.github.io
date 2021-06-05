@@ -38,111 +38,103 @@ import profile from "assets/img/faces/pranav.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
-// core components
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-
-import imagesStyles from "assets/jss/material-kit-react/imagesStyles.jsx";
-
-import { cardTitle } from "assets/jss/material-kit-react.jsx";
-
 class ProfilePage extends React.Component {
-  render() {
-    const { classes, ...rest } = this.props;
-    const imageClasses = classNames(
-      classes.imgRaised,
-      classes.imgRoundedCircle,
-      classes.imgFluid
-    );
-    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
-    return (
-      <div>
-        <Header
-          color="transparent"
-          brand="Pranav"
-          rightLinks={<HeaderLinks />}
-          fixed
-          changeColorOnScroll={{
-            height: 200,
-            color: "white"
-          }}
-          {...rest}
-        />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
-        <div className={classNames(classes.main, classes.mainRaised)}>
-          <div>
-            <div className={classes.container}>
-              <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={6}>
-                  <div className={classes.profile}>
+    render() {
+        const {classes, ...rest} = this.props;
+        const imageClasses = classNames(
+            classes.imgRaised,
+            classes.imgRoundedCircle,
+            classes.imgFluid
+        );
+
+        return (
+            <div>
+                <Header
+                    color="transparent"
+                    brand="Pranav"
+                    rightLinks={<HeaderLinks/>}
+                    fixed
+                    changeColorOnScroll={{
+                        height: 200,
+                        color: "white"
+                    }}
+                    {...rest}
+                />
+                <Parallax small filter image={require("assets/img/profile-bg.jpg")}/>
+                <div className={classNames(classes.main, classes.mainRaised)}>
                     <div>
-                      <img src={profile} alt="..." className={imageClasses} />
+                        <div className={classes.container}>
+                            <GridContainer justify="center">
+                                <GridItem xs={12} sm={12} md={6}>
+                                    <div className={classes.profile}>
+                                        <div>
+                                            <img src={profile} alt="..." className={imageClasses}/>
+                                        </div>
+                                        <div className={classes.name}>
+                                            <h3 className={classes.title}>Pranav Bhardwaj</h3>
+                                            <h6>SOFTWARE DEVELOPER</h6>
+                                            <Button
+                                                justIcon
+                                                link
+                                                className={classes.margin5}
+                                                target="_blank"
+                                                href="https://www.github.com/pranav0281999"
+                                            >
+                                                <i className={"fab fa-github"}/>
+                                            </Button>
+                                            <Button
+                                                justIcon
+                                                link
+                                                className={classes.margin5}
+                                                target="_blank"
+                                                href="https://www.youtube.com/channel/UC4rckcU1W_qsBAPX0cU6jrA"
+                                            >
+                                                <i className={"fab fa-youtube"}/>
+                                            </Button>
+                                            <Button
+                                                justIcon
+                                                link
+                                                className={classes.margin5}
+                                                target="_blank"
+                                                href="https://www.linkedin.com/in/pranav0281999/"
+                                            >
+                                                <i className={"fab fa-linkedin"}/>
+                                            </Button>
+                                            <Button
+                                                justIcon
+                                                link
+                                                className={classes.margin5}
+                                                target="_blank"
+                                                href="mailto:pranavbhardwaj1999@gmail.com"
+                                            >
+                                                <i
+                                                    className={classes.socialIcons + " fas fa-envelope"}
+                                                />
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </GridItem>
+                            </GridContainer>
+                            <div className={classes.description}>
+                                <p>
+                                    Software developer working mainly on website development using React.js with a
+                                    serious interest in web based AR/VR technologies. Also have experience in mobile app
+                                    development using both native languages and React Native and Flutter frameworks.
+                                </p>
+                            </div>
+                            <br/>
+                            <br/>
+                        </div>
                     </div>
-                    <div className={classes.name}>
-                      <h3 className={classes.title}>Pranav Bhardwaj</h3>
-                      <h6>SOFTWARE DEVELOPER</h6>
-                      <Button
-                        justIcon
-                        link
-                        className={classes.margin5}
-                        target="_blank"
-                        href="https://www.github.com/pranav0281999"
-                      >
-                        <i className={"fab fa-github"} />
-                      </Button>
-                      <Button
-                        justIcon
-                        link
-                        className={classes.margin5}
-                        target="_blank"
-                        href="https://angel.co/pranav0281999"
-                      >
-                        <i className={"fab fa-angellist"} />
-                      </Button>
-                      <Button
-                        justIcon
-                        link
-                        className={classes.margin5}
-                        target="_blank"
-                        href="https://www.linkedin.com/in/pranav0281999/"
-                      >
-                        <i className={"fab fa-linkedin"} />
-                      </Button>
-                      <Button
-                        justIcon
-                        link
-                        className={classes.margin5}
-                        target="_blank"
-                        href="mailto:pranavbhardwaj1999@gmail.com"
-                      >
-                        <i
-                          className={classes.socialIcons + " fas fa-envelope"}
-                        />
-                      </Button>
-                    </div>
-                  </div>
-                </GridItem>
-              </GridContainer>
-              <div className={classes.description}>
-                <p>
-                  Software developer working mainly on mobile platforms, building native apps using 
-                  native languages and hybrid apps using React Native and Flutter. Love to learn about and explore different
-                  technologies.
-                </p>
-              </div>
-              <br />
-              <br />
+                </div>
+                <Footer/>
             </div>
-          </div>
-        </div>
-        <Footer />
-      </div>
-    );
-  }
+        );
+    }
 }
 
 ProfilePage.propTypes = {
-  classes: PropTypes.object
+    classes: PropTypes.object
 };
 
 export default withStyles(profilePageStyle)(ProfilePage);

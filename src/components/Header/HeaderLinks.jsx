@@ -20,7 +20,7 @@ import React from "react";
 import DeleteIcon from "@material-ui/icons/Delete";
 import IconButton from "@material-ui/core/IconButton";
 // react components for routing our app without refresh
-import { Link, Redirect, withRouter } from "react-router-dom";
+import {Link, Redirect, withRouter} from "react-router-dom";
 
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
@@ -29,7 +29,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import {Apps, CloudDownload} from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -38,163 +38,163 @@ import Button from "components/CustomButtons/Button.jsx";
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
 class HeaderLinks extends React.Component {
-  state = {
-    redirect: false,
-    redirectTo: "/"
-  };
+    state = {
+        redirect: false,
+        redirectTo: "/"
+    };
 
-  render() {
-    const { classes } = this.props;
+    render() {
+        const {classes} = this.props;
 
-    if (this.state.redirect) {
-      return <Redirect push to={this.state.redirectTo} />;
+        if (this.state.redirect) {
+            return <Redirect push to={this.state.redirectTo}/>;
+        }
+
+        return (
+            <List className={classes.list}>
+                <ListItem className={classes.listItem}>
+                    <Button
+                        className={
+                            window.location.pathname == "/"
+                                ? classes.navLink + " " + classes.navLinkActive
+                                : classes.navLink
+                        }
+                        color="transparent"
+                        onClick={() => {
+                            if (window.location.pathname == "/") {
+                                return;
+                            }
+                            this.setState(prev => {
+                                return {
+                                    ...prev,
+                                    redirect: true,
+                                    redirectTo: "/"
+                                };
+                            });
+                        }}
+                    >
+                        Home
+                    </Button>
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                    <Button
+                        className={
+                            window.location.pathname == "/resume"
+                                ? classes.navLink + " " + classes.navLinkActive
+                                : classes.navLink
+                        }
+                        color="transparent"
+                        onClick={() => {
+                            if (window.location.pathname == "/resume") {
+                                return;
+                            }
+                            this.setState(prev => {
+                                return {
+                                    ...prev,
+                                    redirect: true,
+                                    redirectTo: "/resume"
+                                };
+                            });
+                        }}
+                    >
+                        Resume
+                    </Button>
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                    <Button
+                        className={
+                            window.location.pathname == "/projects"
+                                ? classes.navLink + " " + classes.navLinkActive
+                                : classes.navLink
+                        }
+                        color="transparent"
+                        onClick={() => {
+                            if (window.location.pathname == "/projects") {
+                                return;
+                            }
+                            this.setState(prev => {
+                                return {
+                                    ...prev,
+                                    redirect: true,
+                                    redirectTo: "/projects"
+                                };
+                            });
+                        }}
+                    >
+                        Projects
+                    </Button>
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                    <Tooltip
+                        id="instagram-github"
+                        title="Give me a star on Github"
+                        placement={window.innerWidth > 959 ? "top" : "left"}
+                        classes={{tooltip: classes.tooltip}}
+                    >
+                        <Button
+                            color="transparent"
+                            href="https://www.github.com/pranav0281999"
+                            target="_blank"
+                            className={classes.navLink}
+                        >
+                            <i className={classes.socialIcons + " fab fa-github"}/>
+                        </Button>
+                    </Tooltip>
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                    <Tooltip
+                        id="instagram-angellist"
+                        title="See me on AngelList"
+                        placement={window.innerWidth > 959 ? "top" : "left"}
+                        classes={{tooltip: classes.tooltip}}
+                    >
+                        <Button
+                            color="transparent"
+                            href="https://www.youtube.com/channel/UC4rckcU1W_qsBAPX0cU6jrA"
+                            target="_blank"
+                            className={classes.navLink}
+                        >
+                            <i className={classes.socialIcons + " fab fa-youtube"}/>
+                        </Button>
+                    </Tooltip>
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                    <Tooltip
+                        id="instagram-linkedin"
+                        title="Contact me on LinkedIn"
+                        placement={window.innerWidth > 959 ? "top" : "left"}
+                        classes={{tooltip: classes.tooltip}}
+                    >
+                        <Button
+                            color="transparent"
+                            href="https://www.linkedin.com/in/pranav0281999/"
+                            target="_blank"
+                            className={classes.navLink}
+                        >
+                            <i className={classes.socialIcons + " fab fa-linkedin"}/>
+                        </Button>
+                    </Tooltip>
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                    <Tooltip
+                        id="instagram-linkedin"
+                        title="Send me an email"
+                        placement={window.innerWidth > 959 ? "top" : "left"}
+                        classes={{tooltip: classes.tooltip}}
+                    >
+                        <Button
+                            color="transparent"
+                            href="mailto:pranavbhardwaj1999@gmail.com"
+                            target="_blank"
+                            className={classes.navLink}
+                        >
+                            <i className={classes.socialIcons + " fas fa-envelope"}/>
+                        </Button>
+                    </Tooltip>
+                </ListItem>
+            </List>
+        );
     }
-
-    return (
-      <List className={classes.list}>
-        <ListItem className={classes.listItem}>
-          <Button
-            className={
-              window.location.pathname == "/"
-                ? classes.navLink + " " + classes.navLinkActive
-                : classes.navLink
-            }
-            color="transparent"
-            onClick={() => {
-              if (window.location.pathname == "/") {
-                return;
-              }
-              this.setState(prev => {
-                return {
-                  ...prev,
-                  redirect: true,
-                  redirectTo: "/"
-                };
-              });
-            }}
-          >
-            Home
-          </Button>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Button
-            className={
-              window.location.pathname == "/resume"
-                ? classes.navLink + " " + classes.navLinkActive
-                : classes.navLink
-            }
-            color="transparent"
-            onClick={() => {
-              if (window.location.pathname == "/resume") {
-                return;
-              }
-              this.setState(prev => {
-                return {
-                  ...prev,
-                  redirect: true,
-                  redirectTo: "/resume"
-                };
-              });
-            }}
-          >
-            Resume
-          </Button>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Button
-            className={
-              window.location.pathname == "/projects"
-                ? classes.navLink + " " + classes.navLinkActive
-                : classes.navLink
-            }
-            color="transparent"
-            onClick={() => {
-              if (window.location.pathname == "/projects") {
-                return;
-              }
-              this.setState(prev => {
-                return {
-                  ...prev,
-                  redirect: true,
-                  redirectTo: "/projects"
-                };
-              });
-            }}
-          >
-            Projects
-          </Button>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-github"
-            title="Give me a star on Github"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
-          >
-            <Button
-              color="transparent"
-              href="https://www.github.com/pranav0281999"
-              target="_blank"
-              className={classes.navLink}
-            >
-              <i className={classes.socialIcons + " fab fa-github"} />
-            </Button>
-          </Tooltip>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-angellist"
-            title="See me on AngelList"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
-          >
-            <Button
-              color="transparent"
-              href="https://angel.co/pranav0281999"
-              target="_blank"
-              className={classes.navLink}
-            >
-              <i className={classes.socialIcons + " fab fa-angellist"} />
-            </Button>
-          </Tooltip>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-linkedin"
-            title="Contact me on LinkedIn"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
-          >
-            <Button
-              color="transparent"
-              href="https://www.linkedin.com/in/pranav0281999/"
-              target="_blank"
-              className={classes.navLink}
-            >
-              <i className={classes.socialIcons + " fab fa-linkedin"} />
-            </Button>
-          </Tooltip>
-        </ListItem>
-        <ListItem className={classes.listItem}>
-          <Tooltip
-            id="instagram-linkedin"
-            title="Send me an email"
-            placement={window.innerWidth > 959 ? "top" : "left"}
-            classes={{ tooltip: classes.tooltip }}
-          >
-            <Button
-              color="transparent"
-              href="mailto:pranavbhardwaj1999@gmail.com"
-              target="_blank"
-              className={classes.navLink}
-            >
-              <i className={classes.socialIcons + " fas fa-envelope"} />
-            </Button>
-          </Tooltip>
-        </ListItem>
-      </List>
-    );
-  }
 }
 
 export default withStyles(headerLinksStyle)(HeaderLinks);
